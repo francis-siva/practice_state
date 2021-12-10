@@ -1,8 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
+#end slash '/' to doesn't care of .eslintcache once it is erased
 /node_modules/
-#.eslintcache
 /.pnp
 .pnp.js
 
