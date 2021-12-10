@@ -1,0 +1,33 @@
+.configurator-container:not(:first-child) {
+    row-gap: 20px;
+}
+
+.configurator-container, .green-block  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.green-block h1, .green-block h3 {
+    background-color: #0e7d5f;
+    color: white;
+    border: solid black 1px;
+    min-width: 500px;
+    height: 60px;
+    text-align: center;
+}
+
+.green-block h1/*, .green-block*/ {
+    text-transform: uppercase;
+}
+
+.green-block h1 { font-size: 24px; }
+
+.modele-option div, .seat-option div {
+    background-color: grey;
+    border: solid 1px;
+    margin: 2px auto;
+}
+
+.light_green { background-color: rgba(77,255,0,.851); }
