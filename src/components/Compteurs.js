@@ -7,12 +7,12 @@ const [compteur2, setCompteur2] = useState(0);
     return (
     <div className="bgdCompteurs">
         {/* COMPTEUR n°1 */}
-        <div class="compteur1">
+        <div className="compteur1">
             <span>COMPTEUR n°1</span>
             {compteur1 > 0?
                 <button onClick={() => {
                     setCompteur1(compteur1 -1);
-            }}>-</button>: null} 
+            }}>-</button>: null}
 
             {/* <div> */}
                 <span>{compteur1}</span>
@@ -24,11 +24,11 @@ const [compteur2, setCompteur2] = useState(0);
                 }}>+</button>
             )
             }
-            
+
         </div>
-        
+
         {/* COMPTEUR n°2 */}
-        <div class="compteur2">
+        <div className="compteur2">
             <span>COMPTEUR n°2</span>
             <button onClick={() => {
                 setCompteur2(compteur2 -1);
@@ -37,7 +37,7 @@ const [compteur2, setCompteur2] = useState(0);
 
             <button onClick={() => {
                 setCompteur2(compteur2 +1);
-            
+
             }}>+</button>
             <div>
                 <span>{compteur2}</span>
