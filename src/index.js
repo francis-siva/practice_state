@@ -7,8 +7,8 @@ import App from "./App";
 import Compteurs from "./components/Compteurs";
 import Selectors from './components/selectors/Selectors';
 import Configurator from './components/configurator/Configurator';
-import DeviseDemo from "./components/devise_demo/Devise_demo";
-
+import DeviseDemo from './components/devise_demo/Devise_demo';
+import Movies from './components/movies/Movies';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -19,6 +19,7 @@ ReactDOM.render(
         <Route path="selecteurs" element={<Selectors />} />
         <Route path="configurateur" element={<Configurator />} />
         <Route path="devise_demo" element={<DeviseDemo />} />
+        <Route path="film" element={<Movies />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,

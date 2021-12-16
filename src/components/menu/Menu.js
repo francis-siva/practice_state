@@ -11,6 +11,7 @@ const Menu = () => {
                 <li><Link to='selecteurs'>Selecteurs</Link></li>
                 <li><Link to='configurateur'>Configurateur</Link></li>
                 <li><Link to='devise_demo'>Devise_Demo</Link></li>
+                <li><Link to='film'>Film</Link></li>
             </ul>
         </nav>
     );
